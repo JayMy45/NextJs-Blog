@@ -11,14 +11,16 @@ export default function FirstPost() {
                 </Head>
                 <h1>First Post</h1>
                 <h2>
-                    <div>
-                        <Link href="/">Back to Home</Link>
-                    </div>
-                    <div>
-                        <Link href="/jeremy/jeremy-myers">To Jeremy's Link</Link>
+                    <div className="first__post-link">
+                        <div>
+                            <Link href="/">Back to Home</Link>
+                        </div>
+                        <div>
+                            <Link href="/jeremy/jeremy-myers">To Jeremy's Link</Link>
+                        </div>
                     </div>
                 </h2>
             </Layout>
         </>
-    )
+    );
 }
