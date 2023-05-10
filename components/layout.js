@@ -1,3 +1,4 @@
+import Layout from '../../components/Layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
